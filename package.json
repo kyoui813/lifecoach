@@ -1,0 +1,19 @@
+{
+  "name": "file",
+  "version": "1.0.0",
+  "description": "这是一个基于DeepSeek R1 API的个人成长对话网站，通过智能对话为用户提供生活建议和个人成长指导。",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  }
+}

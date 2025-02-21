@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 生活教练 - 你的个人成长伙伴</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 顶部标题栏 -->
+    <header class="header">
+        <h1>AI 生活教练</h1>
+        <p>你的个人成长伙伴</p>
+    </header>
+
+    <!-- 主要聊天区域 -->
+    <main class="chat-container">
+        <!-- 聊天消息列表 -->
+        <div class="messages" id="messageList">
+            <!-- 欢迎消息 -->
+            <div class="message ai">
+                <div class="message-content">
+                    你好！我是你的AI生活教练。我会通过对话了解你的情况，为你提供个性化的建议和指导。请告诉我你最近遇到了什么困扰或者想要实现什么目标？
+                </div>
+            </div>
+        </div>
+
+        <!-- 输入区域 -->
+        <div class="input-area">
+            <textarea
+                id="userInput"
+                placeholder="输入你的问题或困扰..."
+                rows="3"
+            ></textarea>
+            <button id="sendButton" class="send-button">发送</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
